@@ -1,0 +1,28 @@
+
+.nav-bar {
+    /* background-color: ; */
+    display: flex;
+    list-style-type: none;
+    background-color: aliceblue;
+    height: 40px;
+    text-decoration: none;
+}
+.options {
+    margin-left: 10px;
+    font-size: 25px;
+}
+.Dashboard {
+    display: flex;
+}
+.Details{
+    margin-left: 20px;
+    border: solid;
+
+ }
+/* .header{
+    background-color: aqua;
+
+}
+.bottom{
+    background-color: aqua;
+}  */

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Admin Dashboard</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            background-color: #FFF;
+            font-family: Franklin Gothic Medium, Arial Narrow, Arial, sans-serif;
+        }
+
+        #sidebar {
+            height: 100%;
+            width: 250px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #0b0b0b;
+            padding-top: 20px;
+        }
+
+        #content {
+            margin-left: 250px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            border: 1px solid #111;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-header {
+            background-color: #111;
+            color: #fff;
+        }
+
+        .card-body {
+            padding: 20px;
+        }
+
+        /* Style for the white lines */
+        .sidebar-link {
+            display: block;
+            margin: 10px 0;
+            text-decoration: none;
+            color: #f4f4f4;
+        }
+
+        .sidebar-link:hover {
+            text-decoration: underline;
+        }
+
+        .sidebar-line {
+            border-top: 1px solid #fff;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <ul>
+            <a class="sidebar-link" href="#">Dashboard</a>
+            <hr class="sidebar-line">
+        </ul>
+        <ul>
+            <a class="sidebar-link" href="#">Students</a>
+            <hr class="sidebar-line">
+        </ul>
+        <ul>
+            <a class="sidebar-link" href="#">Courses</a>
+            <hr class="sidebar-line">
+        </ul>
+            <ul>
+            <a class="sidebar-link" href="#">Faculty</a>
+            <hr class="sidebar-line">
+        </ul>
+    </div>
+
+    <!-- Page Content -->
+    <div id="content">
+
+        <h2><b>⫸ College Admin Dashboard</b></h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        Total Students
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">500</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        Total Courses
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">50</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        Total Faculty
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">30</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
